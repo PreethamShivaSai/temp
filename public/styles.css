@@ -1,0 +1,170 @@
+.{
+    margin: 0px;
+}
+.logo{
+    width: 100%;
+    height: 75px;
+    /* text-align: center; */
+    border-bottom: 2px solid black;
+    /* margin: 0; */
+}
+.center{
+    display: inline-block;
+    /* font-family: 'IBM Plex Serif', serif; */
+    margin: 5px 0;
+}
+.online{
+    display: inline-block;
+}
+.main_body{
+    width: 80%;
+    margin-top: 10px;
+    height: auto;
+    box-shadow: 0 0 10px grey;
+}
+.intrests{
+    /* display: inline-block; */
+    text-align: center;
+    margin: 10px;
+}
+.int_text{
+    display: inline-block;
+    margin: 15px;
+    width: 85%;
+    height: 40px;
+}
+.butns{
+    text-align: center;
+}
+.chat{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    /* width: 100%; */
+}
+.intro{
+    position: relative;
+    text-align: center;
+}
+.welcome{
+    margin-top: 10px;
+    display: inline-block;
+}
+.vdo{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    /* width: 100%; */
+}
+.str_no{
+    /* font-size: 20px; */
+    font-weight: bolder;
+}
+.social_media{
+    text-align: center;
+}
+.fb,.twitter,.insta{
+    margin: 20px 5px;
+    display: inline-block;
+}
+.fb{
+    background-color: #3B5998;
+}
+.twitter{
+    background-color: #55ACEE;
+}
+.insta{
+    background-color: #b30000;
+}
+.fa{
+    padding: 10px;
+    width:  40px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.chat_frnd{
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px grey;
+    margin: 10px;
+}
+.fc{
+    display: inline-block;
+    margin: 10px;
+}
+.join_f{
+    margin: 10px;
+}
+.cams{
+    display: inline-block;
+    width: 45%;
+    border: 2px solid black;
+    height: 85vh;
+    margin: 0 3px;
+}
+.chat_f{
+    position: absolute;
+    display: inline-block;
+    border: 1px solid black;
+    height: 590px;
+    width: 50%;
+    margin: 0 3px;
+}
+.chat-box{
+    height: 550px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+.message{
+    display: block;
+    margin: 5px;
+    min-width: 160px;
+    max-width: 80%;
+    height: auto;
+    
+}
+.frnd_cam,.ur_cam{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    height: 50%;
+}
+video{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 5px grey;
+}
+@media( max-width: 768px){
+    .str_no{
+        font-size: 18px;
+    }
+    .str{
+        font-size: 12px;
+    }
+    .join_btn{
+        margin-top: 5px;
+    }
+    .cams{
+        display: block;
+        width: 98%;
+        margin: 5px auto;
+    }
+    .chat_f{
+        display: block;
+        width: 98%;
+        margin: 5px auto;
+    }
+    video{
+        height: 60%;
+    }
+}
